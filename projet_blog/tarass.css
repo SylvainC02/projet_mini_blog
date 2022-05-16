@@ -1,0 +1,157 @@
+body {
+    background-image: url("fonddecran.jpg");
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-image: url("planche.jpg");
+    margin-bottom: 3%;
+}
+
+.boutton {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.boutton:hover {
+    color: lightgray;
+}
+
+.bouttonUser {
+    color: black;
+}
+
+.bouttonUser:hover {
+    color: lightgray;
+}
+
+
+/*PAGE ACCUEIL*/
+
+.titre {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 5%;
+}
+
+.descriptionJeux {
+    margin-left: 14%;
+    margin-right: 14%;
+    width: 70%;
+    text-align: justify;
+    font-size: 1.60em;
+    line-height: 40px;
+}
+
+.titre2 {
+    margin-top: 5%;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 100px;
+    text-decoration: underline;
+}
+
+.card-body {
+    background-image: url("planche.jpg");
+    color: white;
+}
+
+.col-4 {
+    margin-bottom: 20px;
+}
+
+#bouttonArticle {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#bouttonArticle:hover {
+    color: rgb(61, 60, 60);
+}
+
+.userConnecte {
+    font-size: 25px;
+    padding-right: 1%;
+    color: black;
+}
+
+
+/*PAGE article*/
+
+.titrearticle {
+    text-align: center;
+    font-size: 4em;
+}
+
+.contenuarticle {
+    margin: 2% 10% 5% 10%;
+    font-size: 1.60em;
+    text-align: justify;
+}
+
+.commentaire {
+    margin-right: 10%;
+    font-size: 20px;
+    margin: 2% 5% 7% 2%;
+    width: 20%;
+    height: 5%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.auteur {
+    margin-top: 3%;
+    margin-left: 4%;
+    font-size: 20px
+}
+
+.nouveauCommentaire {
+    padding-left: 1%;
+}
+
+#commentairesAjax {
+    margin-bottom: 2%;
+}
+
+
+/*PAGE AJOUTER article*/
+
+#contenu {
+    height: 200px;
+    width: 500px;
+    margin: 10px 10px;
+}
+
+#titre,
+#resume {
+    margin: 10px 10px;
+    height: 50px;
+    width: 300px;
+}
+
+label {
+    vertical-align: top;
+    font-size: 20px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    height: 150px;
+    background-image: url("planche.jpg");
+    margin-top: 1%;
+}
